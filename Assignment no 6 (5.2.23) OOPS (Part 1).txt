@@ -9,7 +9,8 @@ Ans -
 and within that class we create any entities or instance of a class then they are called as objects of that respective class. 
     The generic format is objectName = ClassName().
     e.g. krish = name(). integer = number() etc.
-    
+  
+  
 Q2. Name the four pillars of OOPs.
 
 Ans - Four pillars of OOPs are Inheritence, Polymorphism, Encapsulation and Abstraction.
@@ -25,3 +26,112 @@ class Dog:
   self.breed = dogBreed       
   self.eyeColor = dogEyeColor
 
+Q4. Why self is used in OOPs?
+
+Ans - Self represents the instance of the class. By using the “self” we can access the attributes and methods of the class in python. It binds the attributes with the given arguments. The reason you need to use self. is because Python does not use the @ syntax to refer to instance attributes.
+
+Q5. What is inheritance? Give an example for each type of inheritance.
+
+Ans-
+    It is a mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class. Inheritance is the capability of one class to derive or inherit the properties from another class. 
+    Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+
+Types of inheritance: There are five types of inheritance in python programming:
+
+1) Single inheritance
+2) Multiple inheritances
+3) Multilevel inheritance
+4) Hierarchical inheritance
+5) Hybrid inheritance
+
+Single inheritance:
+        When child class is derived from only one parent class. This is called single inheritance. The example we did above is the best example for single inheritance in python programming.
+
+Syntax of single inheritance:
+
+class class1:               #parent_class
+    pass
+
+class class2(class1):       #child_class
+    pass
+
+obj_name = class2()
+
+Multiple Inheritance:
+        When child class is derived or inherited from more than one parent class. This is called multiple inheritance. In multiple inheritance, we have two parent classes/base classes and one child class that inherits both parent classes properties.
+
+Syntax of multiple inheritance:
+
+class parent_1:
+    pass
+
+class parent_2:
+    pass
+
+class child(parent_1,parent_2):
+    pass
+
+obj = child()
+
+Multilevel Inheritance:
+        In multilevel inheritance, we have one parent class and child class that is derived or inherited from that parent class. We have a grand-child class that is derived from the child class. See the below-given flow diagram to understand more clearly.
+
+Here A is the parent class for class B and class B is acting as the parent class for grand-child class C.
+
+Syntax of multilevel inheritance:
+
+class A:
+    pass
+
+class B(A):
+    pass
+
+class C(B):
+    pass
+
+obj = C()
+
+Hierarchical inheritance:
+        When we derive or inherit more than one child class from one(same) parent class. Then this type of inheritance is called hierarchical inheritance.
+
+Syntax of Hierarchical Inheritance:
+
+
+class A:                  #parent_class
+    pass
+    
+class B(A):               #child_class
+    pass
+
+class C(A):               #child_class
+    pass
+
+class D(A):               #child_class
+    pass
+
+obj_1 = B()       #Object_creation
+obj_2 = C()
+obj_3 = D()
+
+
+Hybrid Inheritance:
+        Hybrid inheritance satisfies more than one form of inheritance ie. It may be consists of all types of inheritance that we have done above. It is not wrong if we say Hybrid Inheritance is the combinations of simple, multiple, multilevel and hierarchical inheritance. This type of inheritance is very helpful if we want to use concepts of inheritance without any limitations according to our requirements.
+
+Syntax of Hybrid Inheritance:
+
+class PC: 
+	pass
+	
+class Laptop(PC): 
+	pass
+	
+class Mouse(Laptop): 
+	pass
+	
+class Student3(Mouse, Laptop): 
+	pass
+	
+# Driver's code 
+obj = Student3()
