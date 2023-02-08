@@ -1,0 +1,27 @@
+Assignment no 6 on OOPS Part 1
+
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+
+Ans - 
+    Classes are user-defined data types that act as the blueprint for individual objects,      attributes and methods. 
+    Objects are instances of a class created with specifically defined data and can correspond to real-world objects or an abstract entity.
+    e.g. We use the class keyword to create a class in Python. For example, class name:, class number: etc.
+and within that class we create any entities or instance of a class then they are called as objects of that respective class. 
+    The generic format is objectName = ClassName().
+    e.g. krish = name(). integer = number() etc.
+    
+Q2. Name the four pillars of OOPs.
+
+Ans - Four pillars of OOPs are Inheritence, Polymorphism, Encapsulation and Abstraction.
+
+    
+Q3. Explain why the __init__() function is used. Give a suitable example.
+
+Ans - 
+    The __init__  function is called every time an object is created from a class. The __init__ method lets the class initialize the object’s attributes and serves no other purpose. It is only used within classes.
+
+class Dog:                   
+ def __init__(self,dogBreed,dogEyeColor):
+  self.breed = dogBreed       
+  self.eyeColor = dogEyeColor
+
