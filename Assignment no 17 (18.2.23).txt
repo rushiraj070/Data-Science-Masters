@@ -1,0 +1,70 @@
+Q1. What is an API? Give an example, where an API is used in real life.
+Ans - API is the acronym for Application Programming Interface, which is a software intermediary that allows two 
+   applications to talk to each other.
+	Any social media app or banking related app is a real life example of API. 
+
+
+Q2. Give advantages and disadvantages of using API. 
+Ans - 
+	Advantages of API's are as follows:
+
+	1. Applications: Access to APIs ensures more flexibility in information-transfer processes.
+	2. Reach: APIs let you create layers in apps in order to distribute information to different audiences.
+	3. Customization: Furthermore, it can serve as a solution to create different experiences for users, letting 
+	   protocols, functions, and commands be adapted according to specific demands.
+	4. Efficiency: When you have content that is automatically published and made available on different channels 
+	   simultaneously, APIs allow for more efficient data distribution.
+	5. Adaptability: One of the greatest benefits of APIs is the ability it has to adapt to changes through data 
+	   migration and flexibility of services.
+
+	Disadvantages to using Application Programming Interfaces:
+
+	1. Increased Complexity: First, they can be complex and challenging to use, making them challenging for novice 
+	   developers.
+	2. Limited Functionality: They may not have all the functionality you need, requiring additional development work.
+	3. Dependency on Third Party Services: If it depends on a third-party service, your application will also be 
+	   unavailable.
+	4. Security and Privacy Risks: They can pose security and privacy risks if they’re not implemented correctly. 
+	   Therefore, it’s essential to carefully consider these risks before using them in your application.
+
+Q3. What is a Web API? Differentiate between API and Web API.
+Ans - Web API is an extensible framework for building HTTP based services that can be accessed in different applications 
+      on different platforms.
+     API can be created with various protocols like TCP,SMTP, HTTP etc, but Web API is only created with only HTTP.
+     API is more feasible on local platform while Web API on online platform.
+
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+Ans - 
+	REST (REpresentational State Transfer) is a software architectural style that defines the set of rules to be used 
+	for creating web services. Web services which follow the REST architectural style are known as RESTful web services. 
+	It allows requesting systems to access and manipulate web resources by using a uniform and predefined set of rules. 
+	Interaction in REST based systems happen through Internet’s Hypertext Transfer Protocol (HTTP).
+	
+	Six architectural constraints which makes any web service are listed below:
+	Uniform Interface, Stateless, Cacheable, Client-Server, Layered System, Code on Demand 
+
+	The SOAP (Simple Object Access Protocol) web services architecture is based on interactions between 
+	components: a service provider, a service requester, and an optional service registry. 
+	A SOAP message is encoded as an XML document, consisting of an <Envelope> element, which contains an optional 
+	<Header> element, and a mandatory <Body> element.
+
+
+Q5. Differentiate between REST and SOAP
+	
+Ans - No. 		SOAP								REST
+      1)	SOAP is a protocol.					REST is an architectural style.
+      2)  SOAP stands for Simple Object Access Protocol.	Object Access REST stands for Representational State Transfer. 
+      3)  SOAP can't use REST because it is a protocol.         REST can use SOAP web services because it is a concept and can use any protocol like HTTP, SOAP.
+      4) SOAP uses services interfaces to expose the business   REST uses URI to expose business logic.
+	 logic.  
+      5) SOAP defines standards to be strictly followed. 	REST does not define too much standards like SOAP.
+      6) SOAP requires more bandwidth and resource than REST.   REST requires less bandwidth and resource than SOAP.
+      7) SOAP defines its own security.				RESTful web services inherits security measures from the underlying transport.
+      8) SOAP permits XML data format only.			REST permits different data format such as Plain text, HTML, XML, JSON etc.
+      9) SOAP is less preferred than REST.			REST more preferred than SOAP.
+
+
+
+
+
